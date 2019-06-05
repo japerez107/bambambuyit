@@ -64,7 +64,7 @@ function buyProducts() {
             chosenID = results[i];
           }
         }
-        if (chosenID.stock_quantity > parseInt(answer.stock)) {
+        if (chosenID.stock_quantity >= parseInt(answer.stock)) {
           // bid was high enough, so update db, let the user know, and start over
           connection.query(
             "UPDATE products SET ? WHERE ?",
