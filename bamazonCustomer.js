@@ -67,18 +67,15 @@ function buyProducts() {
           }
         }
       ])
+
+      // I know there is an issue with 
       .then(function (answer) {
         var chosenID = answer.id;
-        var chosenQ = results[0].stock;
+        var chosenQ = answer.stock;
 
-        // for (var i = 0; i < results.length; i++) {
-        //   if (results[i].item_id === answer.id) {
-        //     chosenID = results[i];
-        //   }
-        // }
-        if (chosenQ < results[0].stock_quantity) {
+        if (results[0].stock_quantity >= chosenQ) {
 
-          var updateQ = chosenQ.stock - parseInt(answer.stock_quantity);
+          var updateQ = results[0].stock_quantity - parseInt(answer.stock_quantity);
 
           connection.query(
             "UPDATE products SET ? WHERE ?",
@@ -87,7 +84,7 @@ function buyProducts() {
                 stock: updateQ
               },
               {
-                id: chosenID.id
+                id: chosenID
               }
             ],
 
