@@ -17,9 +17,9 @@ For this assignment you will be using the command line to access the bamazon dat
 
  
 ## Screenshots 
-![Bamazon Items]()
+![Bamazon Items](https://github.com/japerez107/bambambuyit/blob/master/images/inventory.png)
 - Inventory Output
-![Not Enough]()
+![Not Enough](https://github.com/japerez107/bambambuyit/blob/master/images/not%20enough%20quantity.png)
 - Not enough Quantity  
 ![Purchase Made]()
 - Purchase made/total
