@@ -17,7 +17,8 @@ For this assignment you will be using the command line to access the bamazon dat
 
  
 ## Screenshots 
-Inventory:
+Inventory:  
+
 ![Bamazon Items](https://github.com/japerez107/bambambuyit/blob/master/images/inventory.png)
 - Inventory Output
 

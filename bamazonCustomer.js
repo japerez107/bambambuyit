@@ -68,7 +68,7 @@ function buyProducts() {
         }
       ])
 
-      // I know there is an issue with 
+      
       .then(function (answer) {
         var chosenID = answer.id;
         var chosenQ = answer.stock;
