@@ -25,9 +25,9 @@ Inventory:
 ![Not Enough](https://github.com/japerez107/bambambuyit/blob/master/images/not%20enough%20quantity.png)
 - Not enough Quantity
 
-![Purchase Made]()
+![Purchase Made](https://github.com/japerez107/bambambuyit/blob/master/images/purchase%20error.png)
 - Purchase made/total
-  - I was still having issues with getting an output and I kept recieving an error message 
+  - I am still having issues with getting an output and I kept recieving an error message 
   
   
 
